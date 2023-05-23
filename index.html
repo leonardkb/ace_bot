@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Ace-bot</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+          <div class="bot">
+              <div class="heading">
+                     <Strong> <h1>ACE-BOT</h1> </Strong>
+                </div>
+
+               
+               <h2>
+                    <b>INSTRUCTION</b>
+               </h2>
+              
+                <h3 data-text="Hi,
+                  Myself ACE ,a personal artificial intelligence bot, who has answers to all your questions.
+                  ">Hi,<br>
+                  Myself ACE, <br>
+                  a personal artificial intelligence bot,<br>
+                  who has answers to all your questions.<BR>
+                  Follow these 3 steps:<br>
+                  1. ASK YOUR QUESTION TO ACE ,<BR>
+                  2. Within 2 to 3 sec answer will be given
+                </h3>
+              
+          </div>
+
+          <div class = "botimg">
+            <img src="images/—Pngtree—robot vector_887773.png">
+          </div>
+
+
+          
+          <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    
+                
+            <div id="chat-messages"></div>
+               <form id="chat-form">
+                       <input
+                           type="text"
+                            id="chat-input"
+                             autocomplete="off"
+                              placeholder="Ask Ace your question"
+                                required
+                          />
+                 <button type="submit">Send</button>
+                 <button onclick="startVoiceInput()">Start Voice Input</button>
+
+                 </form>
+           </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
