@@ -36,7 +36,7 @@
 const form = document.getElementById("chat-form");
 const input = document.getElementById("chat-input");
 const messages = document.getElementById("chat-messages");
-const apikey = "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";
+const apikey = "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";
 const recognition = new webkitSpeechRecognition();
 recognition.continuous = false;
 recognition.interimResults = false;
